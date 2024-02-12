@@ -49,7 +49,7 @@ pip install -e .
 python preprocessing\main.py --data english_news.csv --name english_processed
 ```
 
-4 files will me saved under /data/processed which will be english_processed_targets.npy, english_processed_vocab.json, english_processed_tokens.npy, english_processed_bow.pt
+4 files will be saved under `/data/processed/...` which will be `english_processed_targets.npy`, `english_processed_vocab.json`, Venglish_processed_tokens.npy`, `english_processed_bow.pt`
 
 ### train model
 
@@ -57,6 +57,6 @@ python preprocessing\main.py --data english_news.csv --name english_processed
 python train\W2Vmodel.py -ff english_processed_tokens.npy -tf english_processed_targets.npy -vf english_processed_vocab.json --run_name EXPERIMENT_1
 ```     
 
-will train the W2V model with the previously preprocessed data and save the training results under results\train\EXPERIMENT_1\... and the test results under results\test\EXPERIMENT_1\... 
+will train the W2V model with the previously preprocessed data and save the training results under `results\train\EXPERIMENT_1\...` and the test results under `results\test\EXPERIMENT_1\...` 
 
 
