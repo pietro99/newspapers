@@ -49,7 +49,7 @@ pip install -e .
 python preprocessing\main.py --data english_news.csv --name english_processed
 ```
 
-4 files will be saved under `/data/processed/...` which will be `english_processed_targets.npy`, `english_processed_vocab.json`, Venglish_processed_tokens.npy`, `english_processed_bow.pt`
+4 files will be saved under `/data/processed/...` which will be `english_processed_targets.npy`, `english_processed_vocab.json`, `english_processed_tokens.npy`, `english_processed_bow.pt`
 
 ### train model
 
