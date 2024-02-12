@@ -40,8 +40,8 @@ pip install -e .
 |   |   ├── utils           #utility functions
 ```
 ## example
-
-(all commands are run from the /src directory)
+> [!IMPORTANT]  
+> all commands are run from the /src directory
 
 ### preprocessing the data
 
